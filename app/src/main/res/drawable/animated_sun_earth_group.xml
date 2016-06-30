@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:drawable="@drawable/vector_earth_sun_thress"
+    tools:ignore="UnusedResources,NewApi">
+
+    <target
+        android:name="sun"
+        android:animation="@animator/object_animator_sun" />
+
+    <target
+        android:name="earth"
+        android:animation="@animator/object_animator_earth" />
+</animated-vector>

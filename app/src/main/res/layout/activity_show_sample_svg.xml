@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/activity_show_sample_svg_24img"
+        android:layout_width="24dp"
+        app:srcCompat="@drawable/ic_3d_rotation_black_24dp"
+        android:layout_marginTop="7dp"
+        android:layout_height="24dp"
+        android:tint="#e9be12" />
+
+    <ImageView
+        android:id="@+id/activity_show_sample_50svg_img"
+        android:layout_width="50dp"
+        app:srcCompat="@drawable/ic_3d_rotation_black_24dp"
+        android:layout_marginTop="7dp"
+        android:layout_height="50dp"
+        />
+    <ImageView
+        android:id="@+id/activity_show_sample_100svg_img"
+        android:layout_width="100dp"
+        app:srcCompat="@drawable/ic_3d_rotation_black_24dp"
+        android:layout_marginTop="7dp"
+        android:layout_height="100dp"
+        android:tint="#133ea0" />
+    <ImageView
+        android:id="@+id/activity_show_sample_200svg_img"
+        android:layout_width="200dp"
+        app:srcCompat="@drawable/ic_3d_rotation_black_24dp"
+        android:layout_marginTop="7dp"
+        android:layout_height="200dp"
+        android:tint="#f11515" />
+
+</LinearLayout>
